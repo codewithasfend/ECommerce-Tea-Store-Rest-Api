@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ECommerceApi.Migrations
 {
     [DbContext(typeof(ApiDbContext))]
-    [Migration("20231030075157_UpdateCategory")]
-    partial class UpdateCategory
+    [Migration("20231207071551_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -187,7 +187,7 @@ namespace ECommerceApi.Migrations
                             Id = 2,
                             CategoryId = 1,
                             Detail = "A customer favorite. Start your day in a bold way with our loose leaf organic Earl Grey Crème tea. This is a remarkable black tea blend that is hand blended with fragrant oil of bergamot for citrus notes followed by a touch of French vanilla for a rich and robust finish.",
-                            ImageUrl = "earlgreycreme.jpg",
+                            ImageUrl = "earlgreycremetea.jpg",
                             IsBestSelling = false,
                             IsTrending = false,
                             Name = "Earl Grey Crème Tea",
@@ -198,7 +198,7 @@ namespace ECommerceApi.Migrations
                             Id = 3,
                             CategoryId = 1,
                             Detail = "Packed with flavor, our traditional blend of organic loose leaf black tea is perfect for starting the day. This robust black tea brews smooth and malty, with a clean finish.",
-                            ImageUrl = "englishbreakfast.jpg",
+                            ImageUrl = "englishbreakfasttea.jpg",
                             IsBestSelling = false,
                             IsTrending = false,
                             Name = "English Breakfast Tea",
@@ -275,7 +275,7 @@ namespace ECommerceApi.Migrations
                             Id = 10,
                             CategoryId = 2,
                             Detail = "An organic green tea that has been repeatedly baked and scented with fresh and fragrant night-blooming jasmine blossoms. This jasmine green tea has beautiful floral and sweet notes.",
-                            ImageUrl = "jasminetea.jpg",
+                            ImageUrl = "jasminereservetea.jpg",
                             IsBestSelling = false,
                             IsTrending = false,
                             Name = "Jasmine Reserve Tea",
@@ -341,7 +341,7 @@ namespace ECommerceApi.Migrations
                             Id = 16,
                             CategoryId = 3,
                             Detail = "A dreamy, tropical coconut white tea. White Coconut Crème tea has a light body and smooth creamy texture. A customer favorite both hot and iced.",
-                            ImageUrl = "whitecoconutcreme.jpg",
+                            ImageUrl = "whitecoconutcremetea.jpg",
                             IsBestSelling = false,
                             IsTrending = false,
                             Name = "White Coconut Crème Tea",
@@ -429,7 +429,7 @@ namespace ECommerceApi.Migrations
                             Id = 24,
                             CategoryId = 5,
                             Detail = "Our Egyptian Chamomile elicits sweet, calming flavor notes. This tisane is round and soothing with each and every sip, perfect for any time of day.",
-                            ImageUrl = "egyptianchamomile.jpg",
+                            ImageUrl = "egyptianchamomiletea.jpg",
                             IsBestSelling = false,
                             IsTrending = false,
                             Name = "Egyptian Chamomile Tea",
@@ -440,7 +440,7 @@ namespace ECommerceApi.Migrations
                             Id = 25,
                             CategoryId = 5,
                             Detail = "This vanilla rooibos tea is a delectable infusion of enticingly sweet and tangy flavors harmoniously complimented by the soothing smoothness of fresh cream. Our Vanilla Berry Truffle tea is an enjoyable dessert blend at any time of day.",
-                            ImageUrl = "vanillaberrytruffle.jpg",
+                            ImageUrl = "vanillaberrytruffletea.jpg",
                             IsBestSelling = false,
                             IsTrending = false,
                             Name = "Vanilla Berry Truffle Tea",
@@ -451,7 +451,7 @@ namespace ECommerceApi.Migrations
                             Id = 26,
                             CategoryId = 5,
                             Detail = "Our Lemon Meringue tea has a light, fluffy texture and a sweet, creamy finish. This rooibos based blend is a delight for any moments of sweet cravings throughout the day.",
-                            ImageUrl = "lemonmeringue.jpg",
+                            ImageUrl = "lemonmeringuetea.jpg",
                             IsBestSelling = false,
                             IsTrending = true,
                             Name = "Lemon Meringue Tea",
